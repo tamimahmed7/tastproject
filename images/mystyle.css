@@ -1,0 +1,81 @@
+                    @media only screen and (max-width:991px) {
+                        .keyf-part-container {
+                            flex-direction: column;
+                        }
+                        .key-f-taital {
+                            color: rgb(0, 0, 0);
+                            width: 80vh;
+                            font-size: 1rem;
+                        }
+                        .k-p-box {
+                            width: 90%;
+                            height: 120vh;
+                            margin: auto;
+                            overflow: hidden;
+                        }
+                        .k-p-box-left {
+                            display: grid;
+                            row-gap: 10px;
+                            column-gap: 10px;
+                            align-content: center;
+                            margin: auto;
+                            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                            grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 768px) {
+                        .hero-row {
+                            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                        }
+                        .hero-left {
+                            display: grid;
+                            grid-template-rows: 50vh;
+                        }
+                        .hero-right {
+                            display: grid;
+                            grid-template-rows: 50vh;
+                        }
+                        .key-f-taital {
+                            color: rgb(0, 0, 0);
+                            width: 70vh;
+                            font-size: 1rem;
+                        }
+                        .k-p-box {
+                            width: 90vw;
+                            height: 90vh;
+                            margin: auto;
+                            overflow: hidden;
+                        }
+                        .k-p-box-left {
+                            display: grid;
+                            row-gap: 10px;
+                            column-gap: 10px;
+                            align-content: center;
+                            margin: auto;
+                            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                            grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+                        }
+                    }
+                    
+                    @media only screen and (max-width:575px) {
+                        .hero-right img {
+                            width: 80vw;
+                        }
+                        .k-p-box {
+                            width: 80vw;
+                            height: 100vh;
+                            margin: auto;
+                            overflow: hidden;
+                        }
+                        .k-p-box-left {
+                            display: grid;
+                            height: 150vh;
+                            row-gap: 10px;
+                            column-gap: 10px;
+                            align-content: center;
+                            margin: auto;
+                            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                            grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+                        }
+                    }
